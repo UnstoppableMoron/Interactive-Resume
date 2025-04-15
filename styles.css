@@ -1,16 +1,51 @@
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.markazi {
+    font-family: "Markazi Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.gafata-regular {
+    font-family: "Gafata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: none;
+}
+
+body {
+    background-color: #240046;
+}
+
 .head {
+    height: 8px;
     width: 100%;
-    background-color: #6014ca;
-    color: #6014ca;
+    background-color: #7B2CBF;
+    color: #ffffff;
+}
+
+.col-sm {
+    height: 300px;
+}
+
+.img {
+    width: 600px;
 }
 
 h1 {
     text-align: right;
     font-size: 60px;
     margin: 100px 100px 0px 100px;
+    color: white;
 }
 
 h6 {
+    color: white;
     text-align: right;
     margin-right: 100px;
     font-size: 12px;
@@ -18,4 +53,19 @@ h6 {
 
 .infoText {
     align-items: center;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.skillsTrigger,
+.experienceTrigger,
+.educationTrigger,
+.referencesTrigger {
+    background-color: rgba(255, 0, 0, 0.2); /* semi-transparent red */
 }
