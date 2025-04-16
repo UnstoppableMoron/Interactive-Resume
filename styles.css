@@ -1,3 +1,5 @@
+/* Font classes */
+
 .special-gothic-expanded-one-regular {
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
@@ -18,43 +20,53 @@
     display: none;
 }
 
+/* Layout and content classes */
+
+.me {
+    width: 400px;
+    height: 500px;
+}
+
 body {
     background-color: #240046;
 }
 
-.head {
+.horizontalDivider {
     height: 8px;
-    width: 100%;
+    width: 0%;
     background-color: #7B2CBF;
-    color: #ffffff;
+}
+
+.horizontalDividerDark {
+    height: 8px;
+    width: 0%;
+    background-color: #5a189a;
+    right: 100%;
 }
 
 .col-sm {
     height: 300px;
 }
 
-.img {
-    width: 600px;
-}
-
 h1 {
-    text-align: right;
-    font-size: 60px;
-    margin: 100px 100px 0px 100px;
+    text-align: center;
     color: white;
+    font-size: 100px;
+    white-space: nowrap;
 }
 
 h6 {
     color: white;
-    text-align: right;
-    margin-right: 100px;
-    font-size: 12px;
+    text-align: center;
+    font-size: 25px;
 }
 
 .infoText {
     align-items: center;
     margin-right: 100px;
-    text-align: center;
+    text-align: right;
+    width: 415px;
+    margin-left: 1000px;
 }
 
 .container {
@@ -63,9 +75,20 @@ h6 {
     margin-top: 60px;
 }
 
-.skillsTrigger,
+.skillsTrigger {
+    width: 120px;
+    margin-left: 257px;
+}
+
 .experienceTrigger,
 .educationTrigger,
 .referencesTrigger {
-    background-color: rgba(255, 0, 0, 0.2); /* semi-transparent red */
+    width: 230px;
+    margin-left: 200px;
+}
+
+.divider {
+    margin-left: 49%;
+    width: 8px;
+    background-color: #7B2CBF;
 }

@@ -14,3 +14,11 @@ $(".educationTrigger").click(function(){
 $(".referencesTrigger").click(function(){
     $("#referencesText").slideToggle();
 });
+
+$(".horizontalDivider").animate({
+    width: "100%"
+}, 700, function() {
+    $(".horizontalDividerDark").animate({
+        width: "100%"
+    }, 700)
+})
