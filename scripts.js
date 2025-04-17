@@ -22,3 +22,19 @@ $(".horizontalDivider").animate({
         width: "100%"
     }, 700)
 })
+
+$(document).ready(function() {
+    $(".me").hover(
+        function(){
+            //Mouse hovers over the image
+            $(this).animate({
+                'borderWidth': "8px"
+            }, 300);
+        },
+        function() {
+            $(this).animate({
+                'borderWidth': "0px"
+            })
+        }
+    );
+});
