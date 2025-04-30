@@ -13,6 +13,7 @@
     font-style: normal;
 }
 
+
 .gafata-regular {
     font-family: "Gafata", sans-serif;
     font-weight: 400;
@@ -76,14 +77,18 @@ body {
 
 h1 {
     text-align: center;
-    color: white;
+    color: #a07ac0;
     font-size: 150px;
     white-space: nowrap;
     display: inline;
 }
 
+h2 {
+    color: #a07ac0;
+}
+
 h6 {
-    color: white;
+    color: #a07ac0;
     text-align: center;
     font-size: 40px;
 }
